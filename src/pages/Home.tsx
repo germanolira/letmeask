@@ -12,7 +12,7 @@ import { database } from '../services/firebase';
 import '../styles/auth.scss';
 
 export function Home() {
-  const notify = () => toast('Here is your toast.');
+  // const notify = () => toast('Here is your toast.');
   const history = useHistory();
   const { user, signInWithGoogle } = useAuth();
   const [roomCode, setRoomCode] = useState('');

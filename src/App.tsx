@@ -4,7 +4,7 @@ import { NewRoom } from "./pages/NewRoom";
 import { AuthContextProvider } from './contexts/AuthContext'
 import { Room } from './pages/Room';
 import { AdminRoom } from './pages/AdminRoom';
-import toast, { Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
