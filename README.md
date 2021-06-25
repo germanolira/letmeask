@@ -1,18 +1,18 @@
 <h1 align="center">
-  <img alt="podcastr" title="podcastr" src="https://raw.githubusercontent.com/germanolira/letmeask/4ad3c472540b40003e008865f0ae368b7f176002/src/assets/images/logo.svg" />
+  <img alt="podcastr" title="podcastr" src="https://raw.githubusercontent.com/germanolira/letmeask/15cc07eace4fe00e6e3885b8e573e46999069aab/Logo.svg" />
 </h1>
 
 <p align="center">
-  <img alt="License" src="https://media-exp3.licdn.com/dms/image/C5622AQEfahIOJ_lmqA/feedshare-shrink_2048_1536/0/1624585814296?e=1627516800&v=beta&t=MQEnYqubM7DV0QuMO674uEHvAAkK8ZFaN2vlA0ESZY0">
+  <img alt="License" src="https://raw.githubusercontent.com/germanolira/letmeask/main/Capa.png">
 
  <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW 06" />
 </p>
 
 <br>
 
-<p align="center">
+<!-- <p align="center">
   <img alt="Letmeask" src="https://raw.githubusercontent.com/germanolira/letmeask/4ad3c472540b40003e008865f0ae368b7f176002/src/assets/images/empty-questions.svg" width="10%">
-</p>
+</p> -->
 
 ## ✨ Tecnologias
 
