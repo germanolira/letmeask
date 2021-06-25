@@ -44,6 +44,8 @@ Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navega
 ## 📁 O que mudei no projeto?
 - React Host Toast
 - Github Actions
+- Responsividade
+- Cores globais
 
 ## 📄 Licença
 
