@@ -30,7 +30,7 @@ export function Question({
       <p>{content}</p>
       <footer>
         <div className="user-info">
-          <img src={author.avatar} alt={author.name} />
+          <img src={author.avatar} alt={author.name} width="32px" height="32px" />
           <span>{author.name}</span>
         </div>
         <div>

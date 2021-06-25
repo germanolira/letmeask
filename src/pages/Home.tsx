@@ -1,16 +1,18 @@
-import { useHistory } from 'react-router';
-
 import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg';
 import googleIconImg from '../assets/images/google-icon.svg';
+import toast from 'react-hot-toast';
 
-import '../styles/auth.scss';
+import { useHistory } from 'react-router';
 import { Button } from '../components/Button';
 import { useAuth } from '../hooks/useAuth';
 import { FormEvent, useState } from 'react';
 import { database } from '../services/firebase';
 
+import '../styles/auth.scss';
+
 export function Home() {
+  const notify = () => toast('Here is your toast.');
   const history = useHistory();
   const { user, signInWithGoogle } = useAuth();
   const [roomCode, setRoomCode] = useState('');
@@ -33,12 +35,12 @@ export function Home() {
     const roomRef = await database.ref(`rooms/${roomCode}`).get();
 
     if (!roomRef.exists()) {
-      alert('Room does not exists');
+      toast.error("Está sala não existe 🙁")
       return;
     }
 
     if (roomRef.val().endedAt) {
-      alert('Room already closed');
+      toast.error("Está sala foi encerrada 🙁")
       return;
     }
 
@@ -46,9 +48,9 @@ export function Home() {
   }
 
   return (
-    <div id="page-auth">
+      <div id="page-auth">
       <aside>
-        <img src={illustrationImg} alt="Ilustração simbolizando perguntas e respostas" />
+        <img src={illustrationImg} alt="Ilustração simbolizando perguntas e respostas" width="320px" height="320px" />
         <strong>Crie salas de Q&amp;A ao-vivo</strong>
         <p>Tire as dúvidas da sua audiência em tempo-real</p>
       </aside>
