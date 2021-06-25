@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-<h2>Toda pergunta tem uma resposta.</h2>
+<h3>Toda pergunta tem uma resposta.</h3>
 
 Aprenda e compartilhe conhecimento
 com outras pessoas

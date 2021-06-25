@@ -1,4 +1,4 @@
-import logoImg from '../assets/images/logo.svg';
+import logoImg from '../assets/images/logo-azul.svg';
 
 import { FormEvent, useState } from 'react';
 import { useParams } from 'react-router-dom'

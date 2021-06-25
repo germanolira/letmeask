@@ -96,15 +96,15 @@
     height: 50px;
     border-radius: 8px;
     font-weight: 500;
-    background: #ea4335;
-    color: #fff;
+    background: #fff;
+    color: #000;
+    border: 1px solid #7E7E86;
     
     display: flex;
     justify-content: center;
     align-items: center;
 
     cursor: pointer;
-    border: 0;
 
     transition: filter 0.2s;
 
