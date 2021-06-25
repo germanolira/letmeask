@@ -27,3 +27,35 @@
     font-weight: 500;
   }
 }
+
+@media screen and (max-width: 856px) {
+  .room-code {
+  height: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+
+  background: #fff;
+  border: 1px solid #0038FF;
+  cursor: pointer;
+
+  display: none;
+  }
+
+  .room-code div {
+    background: #0038FF;
+    padding: 0 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .room-code span {
+    display: block;
+    align-self: center;
+    flex: 1;
+    padding: 0 14px 0 10px;
+    width: 230px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+}

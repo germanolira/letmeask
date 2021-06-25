@@ -110,3 +110,19 @@
     }
   }
 }
+
+@media screen and (max-width: 856px) {
+  #page-room main {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:  480px) {
+  #page-room main {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
