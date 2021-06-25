@@ -1,15 +1,15 @@
+import logoImg from '../assets/images/logo.svg';
+
 import { FormEvent, useState } from 'react';
 import { useParams } from 'react-router-dom'
-
-import logoImg from '../assets/images/logo.svg';
 import { Button } from '../components/Button';
 import { RoomCode } from '../components/RoomCode';
 import { useAuth } from '../hooks/useAuth';
 import { database } from '../services/firebase';
 import { Question } from '../components/Question';
+import { useRoom } from '../hooks/useRoom';
 
 import '../styles/room.scss'
-import { useRoom } from '../hooks/useRoom';
 
 type RoomParams = {
   id: string;
@@ -80,14 +80,14 @@ export function Room() {
             value={newQuestion}
           />
           <div className="form-footer">
-            { user ? (
+            {/* { user ? (
               <div className="user-info">
                 <img src={user.avatar} alt={user.name} />
                 <span>{user.name}</span>
               </div>
             ) : (
               <span>Para enviar uma pergunta, faça seu login, <button>faça seu login</button></span>
-            ) }
+            ) } */}
             <Button type="submit" disabled={!user}>Enviar pergunta</Button>
           </div>
         </form>

@@ -42,7 +42,7 @@
 
       span {
         margin-left: 26px;
-        background: #e559f9;
+        background: #0038FF;
         border-radius: 9999px;
         padding: 8px 16px;
         color: #fff;
@@ -65,7 +65,7 @@
 
       .form-footer {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
         margin-top: 16px;
 
@@ -95,7 +95,7 @@
           button {
             background: transparent;
             border: 0;
-            color: #835adf;
+            color: #0038FF;
             text-decoration: underline;
             font-size: 14px;
             font-weight: 500;
