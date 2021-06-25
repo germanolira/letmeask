@@ -142,3 +142,10 @@
     }
   }
 }
+
+@media screen and (max-width: 856px) {
+  #page-auth aside {
+    // background: red;
+    display: none;
+  }
+}
